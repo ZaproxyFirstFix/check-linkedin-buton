@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Check the checkbox",
+    "version": "1.0",
+    "description": "Checks a very specific checkbox",
+    "icons": {
+        "48": "icons/checkbox_48.png",
+        "96": "icons/checkbox_96.png",
+        "240": "icons/checkbox_240.png"
+    },
+    
+    "content_scripts": [
+        {
+            "matches": ["https://tilde.town/~thyme/checklist.html"],
+            "js": ["check.js"]
+        }
+    ]
+}
