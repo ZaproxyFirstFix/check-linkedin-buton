@@ -11,7 +11,7 @@
     
     "content_scripts": [
         {
-            "matches": ["https://tilde.town/~thyme/checklist.html"],
+            "matches": ["*://*.linkedin.com/*"],
             "js": ["check.js"]
         }
     ]
